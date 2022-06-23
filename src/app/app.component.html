@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-12 header">
+        <h3>ngx-toastr</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <router-outlet></router-outlet>
+        <button (click)="showToasterSuccess()" class="btn btn-success">
+            Success Toaster
+        </button>&nbsp;
+
+        <button (click)="showToasterError()" class="btn btn-danger">
+            Error Toaster
+        </button>&nbsp;
+
+        <button (click)="showToasterInfo()" class="btn btn-info">
+            Info Toaster
+        </button>&nbsp;
+
+        <button (click)="showToasterWarning()" class="btn btn-warning">
+            Warning Toaster
+        </button>&nbsp;
+    </div>
+</div>
